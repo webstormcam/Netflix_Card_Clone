@@ -27,23 +27,42 @@ body{
 
 #options{
 display: flex;
- margin-top: 10px;
+ margin-top: 15px;
 
 }
 
 svg{
-   background-color: red;
+    fill: whitesmoke;
 }
 
 
 
-svg:hover{
-    fill: white;
+
+
+#play-button{
+margin-left: 5px;
+}
+
+.buttons{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+   padding: 3px;
+   margin-left: 5px;
+  
+    
+}
+
+
+
+#down{
+    margin-left: 120px;
 }
 
 #info{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #match{
@@ -72,6 +91,7 @@ svg:hover{
 }
 
 #tags{
+    margin-top: 15px;
     display: flex;
 }
 
