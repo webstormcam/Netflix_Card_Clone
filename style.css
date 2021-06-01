@@ -22,7 +22,8 @@ body{
     height: 210px;
     background-position:center;
     background-size:cover;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #options{
